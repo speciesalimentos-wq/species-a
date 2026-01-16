@@ -1,20 +1,30 @@
 species-site
 │── index.html
 │── style.css
+│── CNAME
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Species | Harmonia dos Sabores</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Species Alimentos | Harmonia dos Sabores</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Species Alimentos – Temperos e especiarias que unem qualidade, origem e harmonia dos sabores da natureza.">
+    <meta name="keywords" content="temperos, especiarias, condimentos, species alimentos, lemon pepper, páprica, cúrcuma">
+    <meta name="author" content="Species Alimentos">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Species</h1>
+    <h1>Species Alimentos</h1>
     <p>A harmonia dos sabores da natureza em suas mãos</p>
 </header>
+
+<main>
 
 <section class="section">
     <h2>Quem Somos</h2>
@@ -28,127 +38,125 @@ species-site
         oferecemos uma linha completa para garantir que a essência da natureza
         esteja sempre ao seu alcance.
     </p>
+    <p>
+        Queremos que você seja o mestre de seus próprios momentos,
+        transformando o ato de cozinhar em uma celebração.
+    </p>
+    <p class="signature">
+        Species — a harmonia dos sabores da natureza em suas mãos.
+    </p>
 </section>
 
 <section class="section light">
     <h2>Missão, Visão e Valores</h2>
-    <p><strong>Missão:</strong> Colocar nas mãos e bocas das pessoas os melhores temperos e condimentos.</p>
-    <p><strong>Visão:</strong> Oferecer cada vez mais e melhores opções de sabores que tragam harmonia para a alimentação de todos.</p>
-    <p><strong>Valores:</strong> Qualidade, origem dos ingredientes, praticidade e respeito à natureza.</p>
+
+    <p><strong>Missão</strong><br>
+    Colocar nas mãos e bocas das pessoas os melhores temperos e condimentos.</p>
+
+    <p><strong>Visão</strong><br>
+    Oferecer cada vez mais e melhores opções de sabores que tragam harmonia para a alimentação de todos.</p>
+
+    <p><strong>Valores</strong><br>
+    Qualidade, origem dos ingredientes, praticidade, respeito à natureza e aos processos.</p>
 </section>
 
 <section class="section">
-    <h2>Embalagens</h2>
+    <h2>Produtos e Embalagens</h2>
 
     <ul>
-        <li><strong>Vidro com tampa moedora:</strong> praticidade e conservação ideal.</li>
-        <li><strong>Vidro com tampa de bambu e dosadora:</strong> beleza e precisão na medida.</li>
-        <li><strong>Sachês Zip Lock:</strong> ideal para refil e embalagens leves.</li>
-        <li><strong>Displays para PDV:</strong> exposição prática e elegante.</li>
+        <li><strong>Vidro com tampa moedora:</strong> praticidade e ótima conservação para ingredientes moídos na hora.</li>
+        <li><strong>Vidro com tampa de bambu e tampa dosadora:</strong> beleza, controle e precisão na medida.</li>
+        <li><strong>Sachês com Zip Lock:</strong> mesma qualidade dos produtos Species, ideais para refil e embalagens leves.</li>
+        <li><strong>Displays para PDV:</strong> exposição prática, organizada e elegante no ponto de venda.</li>
     </ul>
 </section>
 
 <section class="section light">
-    <h2>Produtos</h2>
-
-    <div class="columns">
-        <div>
-            <h3>Tampa Dosadora</h3>
-            <ul>
-                <li>Alecrim</li>
-                <li>Arroz à grega</li>
-                <li>Canela em pó</li>
-                <li>Curry</li>
-                <li>Páprica defumada</li>
-                <li>Sal do Himalaia fino</li>
-                <li>Temperos regionais</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Sachês Zip Lock</h3>
-            <ul>
-                <li>Bicarbonato de sódio</li>
-                <li>Canela em pau</li>
-                <li>Cominho</li>
-                <li>Cravo-da-índia</li>
-                <li>Orégano</li>
-                <li>Pimenta-do-reino</li>
-                <li>Cúrcuma</li>
-            </ul>
-        </div>
-    </div>
+    <h2>Contato</h2>
+    <p>📧 E-mail: contato@speciesalimentos.com.br</p>
+    <p>🌐 Site: www.speciesalimentos.com.br</p>
+    <p>📍 Brasil</p>
 </section>
 
-<footer>
-    <p>© Species - Todos os direitos reservados</p>
-</footer>
+</main>
 
-</body>
-</html>
+<footer>
+    <p>© 2026 Species Alimentos – Todos os direitos reservados</p>
+</footer>
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Georgia", serif;
+    font-family: Georgia, serif;
 }
 
 body {
-    background-color: #f3eee7;
-    color: #333;
+    background-color: #f2ede5;
+    color: #2f2f2f;
 }
 
 header {
     text-align: center;
-    padding: 60px 20px;
-    background-color: #e6dfd3;
+    padding: 70px 20px;
+    background-color: #e5dfd4;
 }
 
 header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .section {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 0 20px;
+    padding: 60px 20px;
 }
 
 .section h2 {
     text-align: center;
-    margin-bottom: 25px;
     font-size: 2rem;
+    margin-bottom: 30px;
 }
 
-.section p, .section li {
-    line-height: 1.7;
-    margin-bottom: 10px;
+.section p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.signature {
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 .light {
-    background-color: #ede7dc;
-    padding: 50px 20px;
-}
-
-ul {
-    list-style: none;
-}
-
-.columns {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.columns div {
-    flex: 1;
-    min-width: 250px;
+    background-color: #ebe4d8;
 }
 
 footer {
     text-align: center;
-    padding: 30px;
-    background-color: #e6dfd3;
-    margin-top: 40px;
+    padding: 30px 20px;
+    background-color: #e5dfd4;
+    font-size: 0.9rem;
 }
+</body>
+</html>
