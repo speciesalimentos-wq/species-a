@@ -1,0 +1,155 @@
+species-site
+│── index.html
+│── style.css
+│── images/
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Species | Harmonia dos Sabores</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>Species</h1>
+    <p>A harmonia dos sabores da natureza em suas mãos</p>
+</header>
+
+<section class="section">
+    <h2>Quem Somos</h2>
+    <p>
+        A Species é especialista na harmonia entre os sabores da terra e o saber das especiarias.
+        Nascemos da crença de que a vida pede temperos especiais e que toda receita,
+        com o toque certo, se transforma em uma experiência inesquecível de cores e aromas.
+    </p>
+    <p>
+        Da tradição da pimenta-do-reino ao frescor vibrante do Lemon Pepper,
+        oferecemos uma linha completa para garantir que a essência da natureza
+        esteja sempre ao seu alcance.
+    </p>
+</section>
+
+<section class="section light">
+    <h2>Missão, Visão e Valores</h2>
+    <p><strong>Missão:</strong> Colocar nas mãos e bocas das pessoas os melhores temperos e condimentos.</p>
+    <p><strong>Visão:</strong> Oferecer cada vez mais e melhores opções de sabores que tragam harmonia para a alimentação de todos.</p>
+    <p><strong>Valores:</strong> Qualidade, origem dos ingredientes, praticidade e respeito à natureza.</p>
+</section>
+
+<section class="section">
+    <h2>Embalagens</h2>
+
+    <ul>
+        <li><strong>Vidro com tampa moedora:</strong> praticidade e conservação ideal.</li>
+        <li><strong>Vidro com tampa de bambu e dosadora:</strong> beleza e precisão na medida.</li>
+        <li><strong>Sachês Zip Lock:</strong> ideal para refil e embalagens leves.</li>
+        <li><strong>Displays para PDV:</strong> exposição prática e elegante.</li>
+    </ul>
+</section>
+
+<section class="section light">
+    <h2>Produtos</h2>
+
+    <div class="columns">
+        <div>
+            <h3>Tampa Dosadora</h3>
+            <ul>
+                <li>Alecrim</li>
+                <li>Arroz à grega</li>
+                <li>Canela em pó</li>
+                <li>Curry</li>
+                <li>Páprica defumada</li>
+                <li>Sal do Himalaia fino</li>
+                <li>Temperos regionais</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Sachês Zip Lock</h3>
+            <ul>
+                <li>Bicarbonato de sódio</li>
+                <li>Canela em pau</li>
+                <li>Cominho</li>
+                <li>Cravo-da-índia</li>
+                <li>Orégano</li>
+                <li>Pimenta-do-reino</li>
+                <li>Cúrcuma</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© Species - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    background-color: #f3eee7;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e6dfd3;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.section p, .section li {
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.light {
+    background-color: #ede7dc;
+    padding: 50px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.columns div {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #e6dfd3;
+    margin-top: 40px;
+}
