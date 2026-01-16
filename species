@@ -1,7 +1,6 @@
 species-site
 │── index.html
 │── style.css
-│── images/
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
